@@ -2,8 +2,8 @@ from random import  choice
 from telegram import Bot, Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-bot = Bot(token="5750952305:AAEFyR2kFY7bHrxs5n1pQauGa9DlGuymEZE")
-updater =  Updater(token = "5750952305:AAEFyR2kFY7bHrxs5n1pQauGa9DlGuymEZE" )
+bot = Bot(token="")
+updater =  Updater(token = "" )
 dispatcher = updater.dispatcher
 
 SERARATER = '-'
